@@ -7,8 +7,6 @@ require('dotenv').config()
 const port = process.env.PORT
 const uri = process.env.URI
 
-const workItems = []
-
 app.set('view engine', 'ejs')
 
 app.use(express.json())
